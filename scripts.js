@@ -2,7 +2,15 @@
 Copyright (c) 2023 Andrew Carter. All rights reserved. 
 */
 
-function updateText1() {
-    var text = document.getElementById("text1").value;
-    alert(text);
+function submitButton1() {
+
+    var div = document.getElementById("divTesting1");
+    var text = div.querySelector("#text1").value;
+    
+    var outputText = div.querySelector("#outputText1");
+
+    outputText.innerHTML += text;
+
+    div.querySelector("#text1").value = "";
+
 }
