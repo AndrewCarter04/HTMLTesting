@@ -35,3 +35,17 @@ function submitButton3() {
     img.setAttribute("height", div.querySelector("#num3-2").value);
 
 }
+
+function submitButton4() {
+
+}
+
+/*
+
+Add Event Listeners
+
+*/
+
+document.getElementById("button1").addEventListener("onclick", submitButton1);
+document.getElementById("button2").addEventListener("onclick", submitButton2);
+document.getElementById("button3").addEventListener("onclick", submitButton3);
